@@ -1,5 +1,5 @@
 import React from "react";
-const Navbar = () => {
+const Navbar = ({ coin }) => {
     return (
         <div className="navbar bg-base-100">
             <div className="flex-1">
@@ -11,7 +11,7 @@ const Navbar = () => {
                 <p className="text-[#494747]">Teams</p>
                 <p className="text-[#494747]">Schedules</p>
                 <button className="btn btn-ghost border-gray-200 rounded-lg">
-                    <span className=" font-bold">0 Coin</span>
+                    <span className=" font-bold">{coin} Coins</span>
                     <img src="/src/assets/Currency.png" alt="" />
                 </button>
             </div>
