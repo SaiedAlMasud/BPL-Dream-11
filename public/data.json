@@ -1,0 +1,182 @@
+[
+  {
+    "playername": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 92,
+    "battingstyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "imgPath": "/src/assets/players/shakib.png"
+  },
+  {
+    "playername": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playerType": "Wicket-Keeper",
+    "rating": 88,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "imgPath": "/src/assets/players/mushfiqur.png"
+  },
+  {
+    "playername": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 86,
+    "battingstyle": "Left-hand bat",
+    "bowlingStyle": "N/A",
+    "imgPath": "/src/assets/players/tamim.png"
+  },
+  {
+    "playername": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerType": "Bowler",
+    "rating": 85,
+    "battingstyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "imgPath": "/src/assets/players/mustafizur.png"
+  },
+  {
+    "playername": "Liton Das",
+    "playerCountry": "Bangladesh",
+    "playerType": "Wicket-Keeper",
+    "rating": 84,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "imgPath": "/src/assets/players/liton.png"
+  },
+  {
+    "playername": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerType": "All-Rounder",
+    "rating": 90,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "imgPath": "/src/assets/players/russell.png"
+  },
+  {
+    "playername": "Chris Gayle",
+    "playerCountry": "West Indies",
+    "playerType": "Batsman",
+    "rating": 89,
+    "battingstyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "imgPath": "/src/assets/players/gayle.png"
+  },
+  {
+    "playername": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 91,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "imgPath": "/src/assets/players/rashid.png"
+  },
+  {
+    "playername": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 95,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "imgPath": "/src/assets/players/kohli.png"
+  },
+  {
+    "playername": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 93,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "imgPath": "/src/assets/players/babar.png"
+  },
+  {
+    "playername": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 87,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "imgPath": "/src/assets/players/williamson.png"
+  },
+  {
+    "playername": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Wicket-Keeper",
+    "rating": 89,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "N/A",
+    "imgPath": "/src/assets/players/buttler.png"
+  },
+  {
+    "playername": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerType": "Bowler",
+    "rating": 94,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "imgPath": "/src/assets/players/bumrah.png"
+  },
+  {
+    "playername": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 88,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "imgPath": "/src/assets/players/boult.png"
+  },
+  {
+    "playername": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-Rounder",
+    "rating": 91,
+    "battingstyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "imgPath": "/src/assets/players/stokes.png"
+  },
+  {
+    "playername": "David Warner",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 88,
+    "battingstyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "imgPath": "/src/assets/players/warner.png"
+  },
+  {
+    "playername": "Pat Cummins",
+    "playerCountry": "Australia",
+    "playerType": "Bowler",
+    "rating": 89,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "imgPath": "/src/assets/players/cummins.png"
+  },
+  {
+    "playername": "Kagiso Rabada",
+    "playerCountry": "South Africa",
+    "playerType": "Bowler",
+    "rating": 90,
+    "battingstyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "imgPath": "/src/assets/players/rabada.png"
+  },
+  {
+    "playername": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playerType": "Wicket-Keeper",
+    "rating": 86,
+    "battingstyle": "Left-hand bat",
+    "bowlingStyle": "N/A",
+    "imgPath": "/src/assets/players/dekock.png"
+  },
+  {
+    "playername": "Mohammad Nabi",
+    "playerCountry": "Afghanistan",
+    "playerType": "All-Rounder",
+    "rating": 83,
+    "battingstyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "imgPath": "/src/assets/players/nabi.png"
+  }
+]

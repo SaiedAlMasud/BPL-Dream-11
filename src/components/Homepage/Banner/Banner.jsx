@@ -6,7 +6,7 @@ const Banner = () => {
             <img className="mt-5" src="/src/assets/banner-main.png" alt="" />
             <h1 className="text-4xl font-bold text-[#130c0c]">Assemble Your Ultimate Dream 11 Cricket Team</h1>
             <p className="text-gray-600 mt-4">Beyond Boundaries Beyond Limits</p>
-            <div className="border-1 border-[#E7FE29] p-1 rounded-xl my-6">
+            <div className="border border-[#E7FE29] p-1 rounded-xl my-6">
                 <button className="btn bg-[#E7FE29] rounded-xl">Claim Free Coins</button>
             </div>
         </div>

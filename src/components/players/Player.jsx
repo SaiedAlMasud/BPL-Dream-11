@@ -1,7 +1,7 @@
 import { Flag } from "lucide-react";
-import React from "react";
-const Player = () => {
-
+import React, { use } from "react";
+const Player = ({playerPromise}) => {
+const playerData = use(playerPromise);
     return (
         <div className="card bg-base-100 shadow-sm">
             <figure className="px-4 pt-4">
