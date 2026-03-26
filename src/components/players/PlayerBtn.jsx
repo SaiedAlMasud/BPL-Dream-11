@@ -1,5 +1,5 @@
 import React from "react";
-const AvailablePlayers = () => {
+const PlayerBtn = () => {
     return (
         <div className="flex justify-between mt-3 mb-6 items-center">
             <h1 className="text-3xl font-bold">Available Players</h1>
@@ -10,4 +10,4 @@ const AvailablePlayers = () => {
         </div>
     );
 }
-export default AvailablePlayers;
+export default PlayerBtn;
