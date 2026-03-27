@@ -4,11 +4,12 @@ import SelectedPlayers from "../selectedPlayers/SelectedPlayers";
 const Player = ({ playerPromise , setCoin, coin }) => {
     const playerData = use(playerPromise);
     const [selectedType, setSelectedType] = useState("available");
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
     return (
         <>
             <div className="flex justify-between mt-3 mb-6 items-center">
                 {selectedType === "available" ? <h1 className="text-3xl font-bold">Available Players</h1> : 
-                <h1 className="text-3xl font-bold">Selected Players</h1>}
+                <h1 className="text-3xl font-bold">Selected Players ({selectedPlayers.length}/{playerData.length})</h1>}
                 <div>
                     <button 
                     onClick={()=>setSelectedType("available")}
@@ -22,7 +23,8 @@ const Player = ({ playerPromise , setCoin, coin }) => {
                         Selected</button>
                 </div>
             </div>
-            {selectedType === "available" ? <AvailablePlayers playerData={playerData} setCoin={setCoin} coin={coin}/> : <SelectedPlayers playerData={playerData} setCoin={setCoin} coin={coin} />}
+            {selectedType === "available" ? <AvailablePlayers playerData={playerData} setCoin={setCoin} coin={coin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} /> :
+             <SelectedPlayers playerData={playerData} setCoin={setCoin} coin={coin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} />}
         </>
     );
 }
